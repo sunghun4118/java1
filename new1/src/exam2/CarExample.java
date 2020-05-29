@@ -1,0 +1,16 @@
+package exam2;
+
+public class CarExample {
+	public static void main(String[] args) {
+		Car car1 = new Car();
+		car1.Model = "현대";
+		Car car2 = new Car();
+		car2.Model = "기아";
+		System.out.println(car1);
+		System.out.println(car2);
+		String s = "hhhh";
+		System.out.println(s.toString());
+	}
+
+}
+ 
