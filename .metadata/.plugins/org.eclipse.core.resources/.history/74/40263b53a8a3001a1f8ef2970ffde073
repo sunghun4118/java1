@@ -38,7 +38,7 @@ public class Student
 				num = scan.nextInt();
 				
 				System.out.println("이름: " + grade.name[num]);
-				System.out.println("전화번호: " + grade.phone[num]);
+				System.out.println("이름: " + grade.name[num]);
 				
 				System.out.println(num + "번 학생의 국어	영어	수학");
 				System.out.println("    " + grade.Grade[num][0] + "    " + grade.Grade[num][1] + "    "+ grade.Grade[num][2]);
